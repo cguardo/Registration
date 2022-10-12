@@ -23,6 +23,9 @@ body {
 .required {
     color: red;
   }
+
+  .label-agree-term {
+    color: #888; }
 .form-v1-content   {
 	background: #fff;
 	width: 820px;
