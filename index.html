@@ -2,9 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>form-v1 by Colorlib</title>
+	<title>Registration Form</title>
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 	<!-- Font-->
 	<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
 	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
@@ -80,8 +81,8 @@
 											<option value="3rd">3rd Year</option>
 											<option value="4th">4th Year</option>
 										</select>
-								 </div>
-							 </div>
+								 	</div>
+							 	</div>
 
 								<div class="form-row form-row-program">
 									<div class="form-holder form-holder-2">
@@ -228,7 +229,7 @@
 
 									<div class="form-row">
 										<input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-										<label for="agree-term" class="label-agree-term"><span><span></span></span>Provincial Address Same as stated above </label>
+										<label for="agree-term" class="label-agree-term"><span><span></span></span><p>Provincial Address Same as stated above</p></label>
 									</div>
 
 							</div>
@@ -285,7 +286,7 @@
 								</div> 
 								<div class="form-row">
 									<input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-									<label for="agree-term" class="label-agree-term"><span><span></span></span>Same as stated above </label>
+									<label for="agree-term" class="label-agree-term"><span><span></span></span><p>Same as stated above</p></label>
 								</div>
 
 						</div>	
@@ -336,9 +337,33 @@
 			            </h2>
 			            <section>
 			                <div class="inner">
-			                	<div class="wizard-header">
+								<div class="wizard-header">
 									<h3 class="heading">Membership Type</h3>
 									<p>Please enter your infomation and proceed to the next step so we can build your accounts.</p>
+								</div>
+
+								<!-- <div class="form-row form-row-program"> -->
+								<div class="wizard-header">
+									<div class="form-row form-row-program">
+										<div class="form-holder form-holder-2">
+											<label class="special-label">Membership Type<span class="required">*</span></label>
+											<select name="yearLevel" id="yearLevel">
+												<option value="1st Year" disabled selected>-</option>
+												<option value="1st">New</option>
+												<option value="2nd">Renewal</option>
+												<option value="3rd">Honorary</option>
+											</select>
+										</div>
+									</div>
+							 	</div>
+
+								<div class="wizard-header">
+									<p for="photo">Proof of payment:
+										<input
+										type="file"
+										id="photo"
+									    name="photo"
+										accept="image/*"></p>
 								</div>
 								
 							</div>
@@ -353,7 +378,15 @@
 			                <div class="inner">
 			                	<div class="wizard-header">
 									<h3 class="heading">Terms and Conditions</h3>
-									<p>Please enter your infomation and proceed to the next step so we can build your accounts.</p>
+									<p>By accessing or using the Service you agree to be bound by these Terms. If you disagree
+										with any part of the terms then you may not access the Service.</p>
+									<br>
+									<p>PLEASE NOTE: We reserve the right, at our sole discretion, to change, modify or otherwise alter these Terms and Conditions at any time. Unless otherwise indicated, amendments will become effective immediately. Please review these Terms and Conditions periodically. Your continued use of the Site following the posting of changes and/or modifications will constitute your acceptance of the revised Terms and Conditions and the reasonableness of these standards for notice of changes. For your information, this page was last updated as of the date at the top of these terms and conditions.</p>
+								</div>
+
+								<div class="form-row">
+									<input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+									<label for="agree-term" class="label-agree-term"><span><span></span></span><p>Agree in Terms and Conditions</p></label>
 								</div>
 								
 							</div>
