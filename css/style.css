@@ -16,9 +16,9 @@ body {
 	-ms-align-items: center;
 	-moz-align-items: center;
 	-webkit-align-items: center;
-    background-image: -moz-linear-gradient( 136deg,rgb(85, 0, 0) 0%, #c61a09 100%);
-    background-image: -webkit-linear-gradient( 136deg,rgb(85, 0, 0)  0%, #c61a09 100%);
-    background-image: -ms-linear-gradient( 136deg, rgb(85, 0, 0)  0%, #c61a09 100%);
+    background-image: -moz-linear-gradient( 136deg,rgb(218, 124, 124) 0%, #c61a09 60%);
+    background-image: -webkit-linear-gradient( 136deg,rgb(218, 124, 124)  0%, #c61a09 60%);
+    background-image: -ms-linear-gradient( 136deg, rgb(218, 124, 124)  10%, #c61a09 60%);
 }
 .required {
     color: red;
